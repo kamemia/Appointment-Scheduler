@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.collections.*?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import java.lang.String?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.c195.LoginController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label fx:id="label" alignment="center" text="Appointment Management System"/>
+    <TextField fx:id="username" promptText="Username">
+    </TextField>
+    <TextField fx:id="password" promptText="Password" >
+    </TextField>
+    <Button fx:id="login" text="Login">
+    </Button>
+    <ChoiceBox fx:id="langBox" value="English">
+        <items>
+            <FXCollections fx:factory="observableArrayList">
+                <String fx:value="English"/>
+                <String fx:value="Francais"/>
+            </FXCollections>
+        </items>
+    </ChoiceBox>
+    <Label fx:id="zone" text="Zone">
+    </Label>
+</VBox>
