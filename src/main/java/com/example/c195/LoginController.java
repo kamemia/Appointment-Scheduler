@@ -63,7 +63,7 @@ public class LoginController implements Initializable {
     }
 
     private void setLangBox(ActionEvent event) {
-        if (Objects.equals(langBox.getValue(), "Français")) {
+        if (Objects.equals(langBox.getValue(), "Francais")) {
             setFrench();
             setLang("fr");
         }
@@ -74,7 +74,7 @@ public class LoginController implements Initializable {
     }
 
     private void setFrench() {
-        label.setText("Système de gestion\ndes rendez-vous");
+        label.setText("Système de gestion des rendez-vous");
         username.setPromptText("Nom d'utilisateur");
         password.setPromptText("Mot de passe");
         login.setText("Connexion");
