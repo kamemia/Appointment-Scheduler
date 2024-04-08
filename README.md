@@ -7,4 +7,4 @@ The java GUI application allows the user to schedule appointments connected to M
 
 
 # Login Screen
-![](./Screenshots/Login-screen.jpg)
+![login screen](./Screenshots/Login-screen.jpg)
