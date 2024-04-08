@@ -1,0 +1,23 @@
+.gradient-background {
+    -fx-background-color: linear-gradient(to top, #FBAB7E, #F7CE68);
+}
+
+.choice-box {
+    -fx-backgroundcolor: black;
+    -fx-control-inner-background: white;
+    -fx-selection-bar: white;
+    -fx-border-width: 0;
+    -fx-border-color: none;
+}
+.choice-box .arrow {
+    -fx-background-color: black;
+}
+
+.choice-box .menu-item .label{
+    -fx-text-fill: #545454;
+}
+
+.choice-box .label {
+    -fx-text-fill: black;
+    -fx-font-size: 15;
+}

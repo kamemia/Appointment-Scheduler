@@ -86,17 +86,4 @@ public class LoginController implements Initializable {
         login.setText("Login");
     }
 
-//    @FXML
-//    private void loginClick(ActionEvent actionEvent) throws IOException {
-//        ObservableList<User> users = Database.getUsers();
-//
-//        int match = 0;
-//
-//        for (User user: users){
-//            if(Objects.equals(username.getText(), user.getUserName()) &&
-//                    Objects.equals(password.getText(), user.getPassword())){
-//                match = 1;
-//            }
-//        }
-//    }
 }
